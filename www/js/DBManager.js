@@ -186,9 +186,9 @@ function getQuestions_success(tx,results)
             '<div data-role="header">'+
             '<h1> Phone Gap Quiz</h1> ' +
             '</div>' +
-            '<div data-role="content">' +
+            '<div data-role="content" style="background-color: #f4b63a">' +
             '<p>' +  question_no  +  ". " +  quest.question + '</p>' +
-            '<ul data-role="listview" class="answers" id="quest' + question_no + '-list" question-no='  + question_no +'>';
+            '<ul data-role="listview" style="background-color: #f4b63a" class="answers" id="quest' + question_no + '-list" question-no='  + question_no +'>';
         for(var i=0;i<answers.length;i++)
         {
             quest_div =  quest_div  + '<li  data-question-no="'+ question_no  + '" data-answer-no="' +  (i+1) + '" >' + answers[i] + '</li>';
@@ -200,7 +200,7 @@ function getQuestions_success(tx,results)
             '<a href="#" data-theme="b" data-transition="slidedown" data-icon="arrow-r"  data-iconpos="right" data-question-no="'+question_no  +'" class="small-button" data-theme="c" data-role="button">' +
             'Next Question</a>' +
 
-            '<span id="error-display-' +  question_no + '"></span>' +
+            '<span style: background-color:red id="error-display-' +  question_no + '"></span>' +
             '</div> ' +
             '</div>';
         $("body").append(quest_div);
