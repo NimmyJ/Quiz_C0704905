@@ -1,0 +1,88 @@
+{
+  "questions": [ 
+       {
+           "question": " jQuery is a --.",
+           "answers": ["JavaScript Library", "JavaScript Language","JavaScript Method","PHP Method"],
+           "correctAnswer": 1
+       },
+       {
+          "question": "jQuery uses CSS selectors to select elements?.",
+           "answers": ["False", "True"],
+           "correctAnswer": 2
+       },
+       {
+            "question": "Which sign does jQuery use as a shortcut for jQuery?",
+           "answers": ["the % sign", "the % sign", "the $ sign", "the @ sign"],
+           "correctAnswer": 3
+       },
+       {
+           "question": "Is jQuery a library for client scripting or server scripting?",
+           "answers": ["Server scripting", "Client scripting"],
+           "correctAnswer": 1
+       },
+       {
+           "question": "Is it possible to use jQuery together with AJAX?",
+           "answers": ["No", "Yes"],
+           "correctAnswer": 2
+       },
+       {
+           "question": "The jQuery html() method works for both HTML and XML documents",
+           "answers": ["False", "False"],
+           "correctAnswer": 1
+       },
+       {
+           "question": "Which jQuery method is used to hide selected elements?",
+           "answers": ["hidden()", "hide()", "visible(false)", "display(none)"],
+           "correctAnswer": 2
+       },
+       {
+           "question": "Which jQuery method is used to set one or more style properties for selected elements?",
+           "answers": ["css()", "html()", "style()", "none"],
+           "correctAnswer": 1
+       },
+       {
+           "question": "What scripting language is jQuery written in?",
+           "answers": ["VBScript", "JavaScript", "C#", "Java"],
+           "correctAnswer": 2
+       },
+       {
+           "question": "Which jQuery method should be used to deal with name conflicts?",
+           "answers": ["noNameConflict()", 
+           "noConflict()", 
+           "noConflict()", 
+           "conflict()"],
+           "correctAnswer": 4
+       },
+       {
+           "question": "Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?",
+           "answers": ["toggleClass()", "switch()", "altClass()", "switchClass()"],
+           "correctAnswer": 4
+       },
+       {
+           "question": " Is jQuery a W3C standard?",
+           "answers": ["NO", "YES"],
+           "correctAnswer": 2
+       },
+      {
+           "question": "Multiple document.ready blocks can be placed in a page without detriments. This statement is..",
+           "answers": ["True", "False"],
+           "correctAnswer": 1
+       },
+       {
+           "question": "jQuery's main focus is..",
+           "answers": ["AJAX", "DOM Manipulation", "DOM Manipulation", "All of the above"],
+           "correctAnswer": 4
+       },
+       {
+           "question": " Can jQuery be used on the same page alongside other libraries?",
+           "answers": ["YES", "NO"],
+           "correctAnswer": 1
+       },
+       {
+           "question": "You can test whether the browser supports specific features using...",
+           "answers": [" $.suppor", "$.browser", "$.featureTest", "$.browserTest"],
+           "correctAnswer": 1
+       }
+        
+     ]
+ }
